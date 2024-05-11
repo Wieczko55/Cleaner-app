@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,66 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card{
+  @apply  cursor-pointer border-b-4 rounded-md bg-gradient-to-t from-white/20 to-red-600/40 h-44 text-center px-3 py-7 self-end flex flex-col items-center justify-center;
+}
+.card-active{
+  @apply h-96; 
+}
+
+.para{
+ @apply mt-3; 
+}
+
+.logo{
+  @apply text-5xl mt-2 min-w-[5rem] min-h-[5rem] max-w-[5rem] mx-auto rounded-full bg-red-200 text-red-600 grid place-items-center;
+}
+
+.card .mark{
+  @apply border-2 border-gray-200 text-white min-w-[3rem] min-h-[3rem] grid place-items-center rounded-full max-w-[3rem] absolute right-0 scale-0; 
+}
+
+.card-active .mark{
+  @apply scale-[1.3] delay-700 duration-300;
+}
+.card-active .logo{
+  @apply bg-red-500 text-red-200;
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
