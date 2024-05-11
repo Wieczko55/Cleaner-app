@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Cleaner-app/static/css/main.eaeaa1ab.css",
+    "main.js": "/Cleaner-app/static/js/main.2900248a.js",
+    "static/media/cleanmypc-1000x1000.png": "/Cleaner-app/static/media/cleanmypc-1000x1000.018f0e887aa4b4947d6d.png",
+    "index.html": "/Cleaner-app/index.html",
+    "main.eaeaa1ab.css.map": "/Cleaner-app/static/css/main.eaeaa1ab.css.map",
+    "main.2900248a.js.map": "/Cleaner-app/static/js/main.2900248a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaeaa1ab.css",
+    "static/js/main.2900248a.js"
+  ]
+}
