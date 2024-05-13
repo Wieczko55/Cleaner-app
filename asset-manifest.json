@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Cleaner-app/static/css/main.eaeaa1ab.css",
-    "main.js": "/Cleaner-app/static/js/main.2900248a.js",
+    "main.css": "/Cleaner-app/static/css/main.a741b82c.css",
+    "main.js": "/Cleaner-app/static/js/main.1a103462.js",
     "static/media/cleanmypc-1000x1000.png": "/Cleaner-app/static/media/cleanmypc-1000x1000.018f0e887aa4b4947d6d.png",
     "index.html": "/Cleaner-app/index.html",
-    "main.eaeaa1ab.css.map": "/Cleaner-app/static/css/main.eaeaa1ab.css.map",
-    "main.2900248a.js.map": "/Cleaner-app/static/js/main.2900248a.js.map"
+    "main.a741b82c.css.map": "/Cleaner-app/static/css/main.a741b82c.css.map",
+    "main.1a103462.js.map": "/Cleaner-app/static/js/main.1a103462.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaeaa1ab.css",
-    "static/js/main.2900248a.js"
+    "static/css/main.a741b82c.css",
+    "static/js/main.1a103462.js"
   ]
 }
