@@ -50,7 +50,7 @@ const Footer = () =>{
             </div>
         </div>
         <div className="mt-4 pb-4 text-blue-300 font-semibold text-lg">
-            <p className="text-center">2024 Impact Cleaner. All Rights Reserved &copy;</p>
+            <p className="text-center px-4 md:px-0">2024 Impact Cleaner. All Rights Reserved &copy;</p>
         </div>
     </div>
     )
